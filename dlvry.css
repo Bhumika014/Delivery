@@ -1,0 +1,194 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	background: #99A3A4;
+}
+.menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #616A6B ;
+  border: 1px solid #111;
+  border-radius:10px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.menu li {
+  float: left;
+   
+}
+
+.menu li a {
+  display: inline-block;
+  color: white;
+  text-align:left;
+  padding: 10px 12px;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 10px;
+}
+
+.menu li a:hover {
+  background-color: #111;
+}
+
+
+
+		/*forms*/
+.row{
+	
+	background-color: #99A3A4;
+	padding: 5px;
+	font-family: Arial, Helvetica, sans-serif;
+	
+	
+}
+
+		.form1{
+			height: 450px;
+			width: 380px;
+			float: left;
+			margin-left: 30px;
+			
+			
+		}
+		
+		.form2{
+			height: 450px;
+			width: 380px;
+			float: left;
+			margin-left: 30px;
+			
+		}
+		
+		.form3{
+			height: 450px;
+			width: 380px;
+			float: right;
+			margin-right: 30px;
+		}
+
+.form1 input[type=text], select {
+  width: 80%;
+  padding: 5px 5px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+	
+}
+.form1 input[type=number], select {
+  width: 80%;
+  padding: 5px 5px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+	
+}
+.form1 input[type=email], select {
+  width: 80%;
+  padding: 5px 5px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+	
+}
+.form2 input[type=text], select {
+  width: 80%;
+  padding: 5px 5px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+	margin-bottom: 10px;
+}
+.form2 input[type=number], select {
+  width: 80%;
+  padding: 5px 5px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+	margin-bottom: 10px;
+}
+.form2 input[type=email], select {
+  width: 80%;
+  padding: 5px 5px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+	margin-bottom: 10px;
+}
+.form3 input[type=number], select {
+  width: 80%;
+  padding: 5px 5px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+	margin-bottom: 10px;
+}
+
+.button {
+  float: right;
+  background-color: #616A6B ;
+  border:1px solid #000000;
+  border-radius: 10px;
+  color: white;
+  padding: 10px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.button:hover {
+	background-color: #000000 ;
+	color: #FFFFFF;
+}
+
+.form1 h3{
+	border: 1px solid #000000;
+	border-radius: 4px;
+	background: #616A6B;
+	width:80%;
+	padding:5px;
+}
+
+.form2 h3{
+	border: 1px solid #000000;
+	border-radius: 4px;
+	background: #616A6B;
+	width:80%;
+	padding:5px;
+}
+
+.form3 h3{
+	border: 1px solid #000000;
+	border-radius: 4px;
+	background: #616A6B;
+	width:80%;
+	padding:5px;
+}
+
+@media screen and (max-width:1024px){
+	.menu{width:100%;}
+	
+	.form1{width: 33.3333%;}
+	
+	
+	.form2{width: 33.3333%;}
+	
+	.form3{width: 33.3333%;}
+	
+}
